@@ -1,0 +1,23 @@
+{
+  "name": "testcafe-version-detection-bug",
+  "version": "1.0.0",
+  "description": "example project to show testcafe-react-selectors bug",
+  "author": "Martin Raedlinger (mr@formatlos.de)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "testcafe chrome e2e-tests/**/*.spec.e2e.js",
+    "test:e2e:start": "yarn test:e2e --app 'yarn start'"
+  },
+  "dependencies": {
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "testcafe": "^0.18.6",
+    "testcafe-react-selectors": "^1.0.2"
+  }
+}
